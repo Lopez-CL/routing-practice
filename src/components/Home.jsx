@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
         <div>
-            <h1>¡Bienvenidos!</h1>
+            <h2>¡Bienvenidos!</h2>
+            <Link to={"/about"}>Sobre</Link>
         </div>
     )
 }
